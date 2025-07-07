@@ -4,9 +4,32 @@ This project is a beginner-friendly image classifier that uses a Convolutional N
 
 ---
 
-<pre><code>## Project Structure ``` image-classifier/ ├── main.py # Entry point to train and test the model ├── train.py # Handles training logic ├── test.py # Runs predictions on new images │ ├── model/ │ └── classifier.py # ImageClassifier class (data loading, model building, training) │ ├── utils/ │ └── visualizer.py # Accuracy/Loss plotting │ ├── cats_vs_dogs_model.h5 # (Output) Saved trained model └── README.md ``` </code></pre>
 
+image-classifier/
 
+├── main.py # Entry point to train and test the model
+
+├── train.py # Handles training logic
+
+├── test.py # Runs predictions on new images
+
+│
+
+ ├── model/
+
+│ └── classifier.py # ImageClassifier class (data loading, model building, training)
+
+│
+
+├── utils/
+
+│ └── visualizer.py # Accuracy/Loss plotting
+
+│
+
+├── cats_vs_dogs_model.h5 # (Output) Saved trained model
+
+└── README.md
 ---
 
 ## Features
